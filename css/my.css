@@ -148,7 +148,6 @@
   font-family: Raleway, sans-serif;
 }
 
-.navbar,
 .navbar .dropdown-menu {
   background: #fff;
   padding: 0;
@@ -246,6 +245,7 @@
 
 .pfblock-title{
     font-weight: 800;
+    color: black
 }
 
 .pfblock-subtitle {
