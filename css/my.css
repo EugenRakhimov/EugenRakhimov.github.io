@@ -1,0 +1,57 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,300,500,700,800);
+@import url(http://fonts.googleapis.com/css?family=Lobster);
+
+
+h1  {
+  font: 700 2.5em Raleway, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  margin: 5px 0 5px;
+  color: #222;
+}
+
+#preloader {
+  background: #FFF;
+  bottom: 0;
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 9999;
+}
+
+#status {
+  background-image: url(../img/preloader.gif);
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 200px;
+  left: 50%;
+  margin: -100px 0 0 -100px;
+  position: absolute;
+  top: 50%;
+  width: 200px;
+}
+
+#home {
+  background: url(../img/Wellington.JPG);
+  background-color: #222;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  -webkit-background-size: cover;
+     -moz-background-size: cover;
+     -o-background-size: cover;
+      background-size: cover;
+  padding: 0;
+}
+.home-overlay {
+    background-color: rgba(44, 62, 80, 0.3);
+    background-image: url("../img/pattern.png");
+    background-repeat: repeat;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 0;
+}
