@@ -207,7 +207,7 @@
   color: black;
 } 
 
-#about > h5, p {
+#about h5, p {
   color: black;
 }
 
@@ -434,6 +434,29 @@ figure.effect-bubba:hover p {
   -webkit-transform: translate3d(0,0,0);
   transform: translate3d(0,0,0);
 }
-#web-development > h5, p {
+#web-development  p {
   color: white;
+}
+
+/* ---------------------------------------------- /*
+ * Security services
+/* ---------------------------------------------- */
+
+.iconbox {
+  background: #fff;
+  border-bottom: 1px solid #d4d4d4;
+  text-align: center;
+  padding: 40px 20px;
+  margin: 0 0 20px;
+}
+
+.iconbox-icon {
+  margin: 0 0 15px;
+  font-size: 32px;
+  color: #222;
+}
+
+.iconbox-title {
+  margin: 0 0 15px;
+  padding: 0;
 }
