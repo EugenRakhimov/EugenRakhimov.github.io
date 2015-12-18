@@ -459,4 +459,6 @@ figure.effect-bubba:hover p {
 .iconbox-title {
   margin: 0 0 15px;
   padding: 0;
+  color: #222;
+  font-size: 1em;
 }

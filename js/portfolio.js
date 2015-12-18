@@ -51,6 +51,7 @@
     } else {
       $('#home').parallax('50%', 0.1);
     }
+    
   });
 
 })(jQuery);
