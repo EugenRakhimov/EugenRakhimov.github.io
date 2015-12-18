@@ -1,3 +1,20 @@
+function getHeightofDiv()
+{ var height_max=0;
+  $(".iconbox").each(function(){
+    height_max = $(this).innerHeight()>height_max?$(this).innerHeight():height_max;    
+  });  
+  return height_max;
+}
+
+function resizeIconboxDiv(height_max)
+{ 
+  $(".iconbox").each(function(){
+    dif = height_max - $(this).innerHeight()+20;
+    $(this).css( "padding-bottom", dif+"px" );    
+  });  
+  
+}
+
 (function($){
 
   $(window).load(function() {
@@ -51,6 +68,9 @@
     } else {
       $('#home').parallax('50%', 0.1);
     }
+    //  resizing paddings
+    height_max = getHeightofDiv();
+    resizeIconboxDiv(height_max);
     
   });
 
